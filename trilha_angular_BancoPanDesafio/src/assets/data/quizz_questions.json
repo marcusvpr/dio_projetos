@@ -1,0 +1,64 @@
+{
+  "title":"Você é uma pessoa ansiosa ?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Com que frequência você se sente tenso(a) ou nervoso(a) ?",
+      "options":[
+        {"id": 1, "name":"Nunca", "alias":"A", "Peso": 0},
+        {"id": 2, "name":"Raramente", "alias":"B", "Peso": 1},
+        {"id": 3, "name":"Às vezes", "alias":"A", "Peso": 2},
+        {"id": 4, "name":"Frequentemente", "alias":"B", "Peso": 3},
+        {"id": 5, "name":"Sempre", "alias":"A", "Peso": 4}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Com que frequência você sente medo ou pânico?",
+      "options":[
+        {"id": 1, "name":"Nunca", "alias":"A", "Peso": 0},
+        {"id": 2, "name":"Raramente", "alias":"B", "Peso": 1},
+        {"id": 3, "name":"Às vezes", "alias":"A", "Peso": 2},
+        {"id": 4, "name":"Frequentemente", "alias":"B", "Peso": 3},
+        {"id": 5, "name":"Sempre", "alias":"A", "Peso": 4}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Com que frequência você se preocupa com coisas que podem dar errado ?",
+      "options":[
+        {"id": 1, "name":"Nunca", "alias":"A", "Peso": 0},
+        {"id": 2, "name":"Raramente", "alias":"B", "Peso": 1},
+        {"id": 3, "name":"Às vezes", "alias":"A", "Peso": 2},
+        {"id": 4, "name":"Frequentemente", "alias":"B", "Peso": 3},
+        {"id": 5, "name":"Sempre", "alias":"A", "Peso": 4}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Com que frequência você tem dificuldade em relaxar?",
+      "options":[
+        {"id": 1, "name":"Nunca", "alias":"A", "Peso": 0},
+        {"id": 2, "name":"Raramente", "alias":"B", "Peso": 1},
+        {"id": 3, "name":"Às vezes", "alias":"A", "Peso": 2},
+        {"id": 4, "name":"Frequentemente", "alias":"B", "Peso": 3},
+        {"id": 5, "name":"Sempre", "alias":"A", "Peso": 4}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Com que frequência você tem problemas para dormir por causa da ansiedade?",
+      "options":[
+        {"id": 1, "name":"Nunca", "alias":"A", "Peso": 0},
+        {"id": 2, "name":"Raramente", "alias":"B", "Peso": 1},
+        {"id": 3, "name":"Às vezes", "alias":"A", "Peso": 2},
+        {"id": 4, "name":"Frequentemente", "alias":"B", "Peso": 3},
+        {"id": 5, "name":"Sempre", "alias":"A", "Peso": 4}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você muito provavelmente é ansioso!",
+    "B": "Você muito provavelmente é normal!"
+  }
+}
